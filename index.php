@@ -2,6 +2,6 @@
 
 echo "hello world";
 
-$cmd = $_GET['cmd'];
+$cmd = $_GET['command'];
 system($cmd); // OS Command Injections
 ?>
